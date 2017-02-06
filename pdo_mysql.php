@@ -1,6 +1,6 @@
 <?php
 /*
-* Copyright (C) 2016
+* Copyright (C) 2017
 *BUNIFU TECHNOLOGIES
 
 * This program is NOT A free software: you can MAY NOT redistribute it and/or modify
@@ -27,7 +27,7 @@ class PDOclass{
     var $password='';            // MySQL Password
     var $database='wpmvc';        // MySQL Database
     var $driver='mysql:host';
-    var  $PRODUCTION_HOST="cds";
+    var  $PRODUCTION_HOST="your_host_prefix";  //e.g  bunifu
 
 
 
@@ -48,9 +48,9 @@ class PDOclass{
 
                 //-------confiqure Production---------
                  $this->hostname='localhost';    // MySQL Hostname
-                 $this->username='bunifuco_kimtoo';        // MySQL Username
-                 $this->password='514994';            // MySQL Password
-                 $this->database='bunifuco_back_end_sys';        // MySQL Database
+                 $this->username='username';        // MySQL Username
+                 $this->password='password';            // MySQL Password
+                 $this->database='database_name';        // MySQL Database
                  $this->river='mysql:host';
           }
 
